@@ -1,6 +1,6 @@
 ![imagen](/IMG/Banner.png)
 ---
-Soy un developer en proceso, me gusta mucho trabajar con código en general y disfruto de siempre aprender cosas nuevas.
+Soy un developer en proceso ⌨🖱, me gusta mucho trabajar con código en general y disfruto de siempre aprender cosas nuevas 😃.
 
 -Leguajes en los que programo
 
@@ -9,3 +9,5 @@ Soy un developer en proceso, me gusta mucho trabajar con código en general y di
 Estos son algunos proyectos en los que he participado:
 
 - [Cosmic Castaways](https://github.com/LeeonDeChino/CosmicCastaways)
+
+- [Perfil de itch.io](https://elyorchi14.itch.io/)
