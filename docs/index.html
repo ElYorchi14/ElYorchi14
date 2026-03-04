@@ -1,11 +1,224 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ElYorchi</title>
-</head>
-<body>
-  <h1>Jorge Alberto Palacios Burguete</h1>
-</body>
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jorge Palacios | Game Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-slate-950 text-slate-200 font-sans">
+    <!-- HERO -->
+    <section class="min-h-screen flex items-center justify-center px-6">
+      <div class="max-w-5xl w-full grid md:grid-cols-2 gap-10 items-center">
+        <!-- Texto -->
+        <div>
+          <h1 class="text-4xl md:text-5xl font-bold mb-4 text-white">
+            Jorge Palacios
+          </h1>
+
+          <h2 class="text-xl text-blue-400 mb-6">
+            Game Developer | Programación de Videojuegos
+          </h2>
+
+          <p class="text-slate-400 leading-relaxed">
+            Estudiante de Ingeniería en Desarrollo de Software Interactivo y
+            Videojuegos en Amerike (7º semestre). Especializado en programación
+            de videojuegos con interés en sistemas escalables y desarrollo de
+            roguelites. Disfruto resolver problemas técnicos y aprender nuevas
+            herramientas para mejorar mis proyectos.
+          </p>
+        </div>
+
+        <!-- Foto -->
+        <div class="flex justify-center">
+          <div
+            class="w-64 h-64 rounded-full overflow-hidden border-4 border-blue-500 shadow-lg"
+          >
+            <img
+              src="/assets/perfil.jpg"
+              alt="Jorge Palacios"
+              class="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECNOLOGÍAS -->
+    <section class="py-20 px-6 bg-slate-900">
+      <div class="max-w-5xl mx-auto">
+        <h3 class="text-3xl font-semibold mb-10 text-white">Tecnologías</h3>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <div>
+            <h4 class="text-blue-400 font-semibold mb-3">Game Development</h4>
+            <ul class="space-y-2 text-slate-400">
+              <li>Unity (C#)</li>
+              <li>Unreal Engine 5</li>
+              <li>IA enemiga</li>
+              <li>Generación procedural</li>
+              <li>Patrones de diseño (Singleton, Observer)</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-blue-400 font-semibold mb-3">Programación</h4>
+            <ul class="space-y-2 text-slate-400">
+              <li>C#</li>
+              <li>JavaScript</li>
+              <li>SQL (Supabase)</li>
+              <li>JSON</li>
+              <li>Git & GitHub</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-blue-400 font-semibold mb-3">Otros</h4>
+            <ul class="space-y-2 text-slate-400">
+              <li>Diseño y balance de armas</li>
+              <li>Arquitectura modular</li>
+              <li>Optimización básica móvil</li>
+              <li>Trabajo en equipo</li>
+              <li>Liderazgo competitivo</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section class="py-20 px-6">
+      <div class="max-w-5xl mx-auto">
+        <h3 class="text-3xl font-semibold mb-10 text-white">
+          Proyectos Destacados
+        </h3>
+
+        <div class="grid md:grid-cols-2 gap-8">
+          <!-- Cubical Defense -->
+          <div class="bg-slate-900 p-6 rounded-xl hover:scale-105 transition">
+            <h4 class="text-xl font-semibold text-blue-400 mb-3">
+              Cubical Defense
+            </h4>
+            <p class="text-slate-400 mb-4">
+              Proyecto en equipo. Responsable del comportamiento de enemigos,
+              diseño de nivel y balanceo de armas. Enfoque en ritmo de juego y
+              control de dificultad.
+            </p>
+            <a
+              href="https://gumbal117.itch.io/cubical-defense"
+              target="_blank"
+              class="text-sm text-blue-400 hover:underline"
+            >
+              Ver proyecto →
+            </a>
+          </div>
+
+          <!-- ChronoHell -->
+          <div class="bg-slate-900 p-6 rounded-xl hover:scale-105 transition">
+            <h4 class="text-xl font-semibold text-blue-400 mb-3">ChronoHell</h4>
+            <p class="text-slate-400 mb-4">
+              Desarrollo en equipo enfocado en combate dinámico. Implementación
+              de IA enemiga y apoyo en sistema de generación procedural del
+              mapa.
+            </p>
+            <a
+              href="https://github.com/LeeonDeChino/ChronoHell"
+              target="_blank"
+              class="text-sm text-blue-400 hover:underline"
+            >
+              Ver repositorio →
+            </a>
+          </div>
+
+          <!-- Starfire Assault -->
+          <div class="bg-slate-900 p-6 rounded-xl hover:scale-105 transition">
+            <h4 class="text-xl font-semibold text-blue-400 mb-3">
+              Starfire Assault
+            </h4>
+            <p class="text-slate-400 mb-4">
+              Shooter móvil en desarrollo (actualmente en pausa). Enfoque en
+              arquitectura modular y optimización para dispositivos móviles.
+            </p>
+            <a
+              href="https://github.com/ElYorchi14/StarfireAssault"
+              target="_blank"
+              class="text-sm text-blue-400 hover:underline"
+            >
+              Ver repositorio →
+            </a>
+          </div>
+
+          <!-- Tesis -->
+          <div class="bg-slate-900 p-6 rounded-xl hover:scale-105 transition">
+            <h4 class="text-xl font-semibold text-blue-400 mb-3">
+              Proyecto de Tesis (En desarrollo)
+            </h4>
+            <p class="text-slate-400">
+              Shooter top-down 2D multiplataforma (PC, consolas y móvil).
+              Enfoque en arquitectura escalable y diseño sólido desde etapas
+              tempranas.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORTALEZAS -->
+    <section class="py-20 px-6 bg-slate-900">
+      <div class="max-w-5xl mx-auto">
+        <h3 class="text-3xl font-semibold mb-10 text-white">Fortalezas</h3>
+
+        <div class="grid md:grid-cols-2 gap-8 text-slate-400">
+          <ul class="space-y-3">
+            <li>✔ Diseño e implementación de comportamiento de enemigos</li>
+            <li>✔ Aplicación de patrones de diseño</li>
+            <li>✔ Desarrollo de sistemas escalables</li>
+            <li>✔ Generación procedural de mapas</li>
+          </ul>
+
+          <ul class="space-y-3">
+            <li>✔ Aprendizaje autónomo y rápido</li>
+            <li>✔ Adaptabilidad en equipos multidisciplinarios</li>
+            <li>
+              ✔ Liderazgo (Capitán del equipo representativo de Valorant en
+              Amerike)
+            </li>
+            <li>✔ Enfoque en resolución de problemas</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCACIÓN -->
+    <section class="py-20 px-6">
+      <div class="max-w-5xl mx-auto">
+        <h3 class="text-3xl font-semibold mb-6 text-white">Educación</h3>
+        <p class="text-slate-400">
+          Ingeniería en Desarrollo de Software Interactivo y Videojuegos —
+          Amerike
+          <br />
+          7º semestre (En curso)
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="py-16 px-6 bg-slate-900 text-center">
+      <h3 class="text-2xl font-semibold text-white mb-6">Contacto</h3>
+      <div class="space-y-2 text-slate-400">
+        <p>📧 joralbertopalacios@gmail.com</p>
+        <p>📱 +52 961 460 7700</p>
+        <p>
+          🌐<a
+            href="https://github.com/ElYorchi14"
+            target="_blank"
+            class="text-sm text-blue-400 hover:underline"
+          >
+            github.com/ElYorchi14
+          </a>
+        </p>
+      </div>
+    </section>
+  </body>
 </html>

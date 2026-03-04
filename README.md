@@ -1,6 +1,7 @@
-![imagen](/IMG/Banner.png)
----
-Soy un developer en proceso ⌨🖱, me gusta mucho trabajar con código en general y disfruto de siempre aprender cosas nuevas 😃.
+## ![imagen](/IMG/Banner.png)
+
+Estudiante de Ingeniería en Desarrollo de Software Interactivo y Videojuegos en Amerike (7º semestre).
+Especializado en programación de videojuegos y desarrollo de sistemas escalables.
 
 -Leguajes en los que programo
 
@@ -11,6 +12,8 @@ Estos son algunos proyectos en los que he participado:
 - [Cosmic Castaways](https://github.com/LeeonDeChino/CosmicCastaways)
 
 - [Perfil de itch.io](https://elyorchi14.itch.io/)
+
+- [CV disponible](https://elyorchi14.github.io)
 
 Redes:
 
